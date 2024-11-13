@@ -1,5 +1,5 @@
-"# openai-article-to-html" 
-**Opis aplikacji**Aplikacja służy do pobierania artykułu w formacie tekstowym z internetu, generowania na jego podstawie kodu HTML przy użyciu API OpenAI oraz tworzenia podglądu artykułu w HTML.Proces obejmuje następujące kroki:
+**Opis aplikacji**
+Aplikacja **openai-article-to-html** służy do pobierania artykułu w formacie tekstowym z internetu, generowania na jego podstawie kodu HTML przy użyciu API OpenAI oraz tworzenia podglądu artykułu w HTML.Proces obejmuje następujące kroki:
 
 1.  Pobranie artykułu z podanego URL.
     
@@ -76,14 +76,14 @@ Po uruchomieniu aplikacji:
 
 **Funkcje aplikacji**
 
-1.  **download(url, filename)**Funkcja pobiera treść artykułu z podanego URL i zapisuje ją do pliku o nazwie filename.
+1.  **download(url, filename)** Funkcja pobiera treść artykułu z podanego URL i zapisuje ją do pliku o nazwie filename.
     
-2.  **read(filename)**Funkcja odczytuje zawartość pliku tekstowego o nazwie filename.
+2.  **read(filename)** Funkcja odczytuje zawartość pliku tekstowego o nazwie filename.
     
-3.  **generate(content, api\_key)**Funkcja generuje kod HTML z treści artykułu, wykorzystując OpenAI API do przetworzenia tekstu na odpowiednią strukturę HTML z tagami, takimi jak h1, h2, oraz img.
+3.  **generate(content, api\_key)** Funkcja generuje kod HTML z treści artykułu, wykorzystując OpenAI API do przetworzenia tekstu na odpowiednią strukturę HTML z tagami, takimi jak h1, h2, oraz img.
     
-4.  **save(content, filename)**Funkcja zapisuje podaną zawartość do pliku o nazwie filename.
+4.  **save(content, filename)** Funkcja zapisuje podaną zawartość do pliku o nazwie filename.
     
-5.  **generate\_template()**Funkcja generuje szablon HTML, który będzie używany do wyświetlania artykułu. Zawiera podstawowe style CSS dla treści artykułu i obrazków.
+5.  **generate\_template()** Funkcja generuje szablon HTML, który będzie używany do wyświetlania artykułu. Zawiera podstawowe style CSS dla treści artykułu i obrazków.
     
-6.  **create\_preview(article\_content)**Funkcja tworzy podgląd artykułu, wstawiając wygenerowany kod HTML do szablonu, a następnie zapisuje go do pliku podglad.html.
+6.  **create\_preview(article\_content)** Funkcja tworzy podgląd artykułu, wstawiając wygenerowany kod HTML do szablonu, a następnie zapisuje go do pliku podglad.html.
