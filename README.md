@@ -1,4 +1,5 @@
 **Opis aplikacji**
+
 Aplikacja **openai-article-to-html** służy do pobierania artykułu w formacie tekstowym z internetu, generowania na jego podstawie kodu HTML przy użyciu API OpenAI oraz tworzenia podglądu artykułu w HTML.Proces obejmuje następujące kroki:
 
 1.  Pobranie artykułu z podanego URL.
